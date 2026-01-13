@@ -34,15 +34,15 @@ public class Driver {
                     :ConfigurationReader.getProperty("browser");
 
             System.out.println("browserType = " + browserType);
-            String gridUrl =null;
+            String gridUrl = null;
 
-            /*
+           /*
              gridUrl = System.getProperty("GRID_URL")!=null
                     ?ConfigurationReader.getProperty("local.grid")
                     :ConfigurationReader.getProperty("aws.grid.url");
 
+            */
 
-             */
 
            // System.out.println(gridUrl + " ------------------ grid URL");
              gridUrl = ConfigurationReader.getProperty("aws.grid.url");
